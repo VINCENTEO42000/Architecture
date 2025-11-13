@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* RESET : permet d'effacer le style par défaut imposé par le navigateur */
 
 * {
@@ -42,6 +43,7 @@ p {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    font-size: 12px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -264,6 +266,14 @@ p {
     width: 100%;
 }
 
+.size-10 {
+    font-size: 10px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------*/
 /* seul les margin top et bottom sont tolérés*/
@@ -356,12 +366,15 @@ p {
     margin-left: 150px;
 }
 
+.gap-20 {
+    gap: 20px;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 
 /*classe bouton*/
 .btn {
-    background-color: black;
-    border-radius: 5px;
+    background-color: #996830;
     color: white;
     padding: 5px 15px;
     display: inline-block;
@@ -369,6 +382,10 @@ p {
 
 .btn-primary {
     font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    display: inline-block;
 }
 
 .btn-secondary {
@@ -402,4 +419,131 @@ ul {
 
 .txt-white {
     color: white;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* page index*/
+/* header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 15vH;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* section hero*/
+
+.section-hero {
+    background-image: url(asset/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vH;
+    margin-top: 80px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* section nos services */
+
+#line {
+    height: 3px;
+    width: 70px;
+    background-color: #996830;
+
+}
+
+.goldy-project {
+    color: #996830;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+h3 {
+
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 2em;
+
+}
+
+.solid-border {
+    border: solid;
+    border-color: #996830;
+}
+
+.padding-20 {
+
+    padding: 20px;
+}
+
+.padding-30 {
+
+    padding: 30px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* section nos engagement*/
+
+.section-engagement {
+    background-color: #996830;
+    color: white;
+}
+
+#line2 {
+    height: 3px;
+    width: 70px;
+    background-color: white;
+
+}
+
+.padding-10 {
+
+    padding: 10px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* section PROJECT*/
+
+.largeur {
+    width: 100%;
+    height: 30vH;
+}
+
+.WTF-rendre-la-dedans {
+    object-fit: cover;
+
+
+    /* or
+  object-fit: cover; */
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* footer*/
+
+.footer {
+    background-color: #996830;
+    color: white;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* form*/
+
+input {
+    display: block;
 }

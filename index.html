@@ -18,13 +18,13 @@
 
 <body>
     <!-- mon hearder qui est mon parent -->
-    <header class="flex space-around">
+    <header class="flex space-around align-center padding-30">
 
         <!-- mon premier enfant -->
-        <a href="" class="w-30">Clémence Rivière Studio</a>
+        <a href="index.html" class="w-25">Clémence Rivière Studio</a>
 
         <!-- mon deuxieme enfant -->
-        <nav class="w-30">
+        <nav class="w-25">
             <ul class="flex space-around">
                 <li><a href=""></a>À propos</li>
                 <li><a href=""></a>Réalisations</li>
@@ -34,7 +34,9 @@
         </nav>
 
         <!-- mon troisième enfant -->
-        <a href=""class="w-30">CONTACT</a>
+        <a href="" class="w-10  btn">CONTACT</a>
+
+        <div class="margin-top-25"></div>
 
     </header>
 
@@ -42,12 +44,14 @@
     <main>
 
         <!-- section héro -->
-        <section>
+        <section class="section-hero align-center flex justify-center">
 
-            <div>
-                <h1>Clémence Rivière Studio</h1>
-                <p>Révéler le potentiel de chaque espace</p>
-                <a href="">PRENDRE RENDEZ-VOUS</a>
+            <div class="">
+                <h1 class="margin-bottom-25">Clémence <em> Rivière Studio </em></h1>
+                <p class="flex justify-center margin-bottom-25">Révéler le potentiel de chaque espace</p>
+                <div class="flex justify-center">
+                    <a href="" class=" btn">PRENDRE RENDEZ-VOUS</a>
+                </div>
             </div>
 
 
@@ -55,39 +59,42 @@
         </section>
 
         <!-- section nos services -->
-        <section>
+        <section class="container-1000 margin-top-100">
 
 
-            <div>
-                <div></div>
-                <h2>Nos services</h2>
+            <div class="flex align-center gap-20">
+                <div id="line"> </div>
+                <h2 class="goldy-project">NOS SERVICES</h2>
             </div>
 
-            <h3>Rêvez grand, nous sommes là pour vous aider </h3>
+            <h3 class="w-40"> <em>Rêvez grand,</em> nous sommes là pour vous aider </h3>
 
             <!-- mon parent -->
-            <div>
+            <div class="flex space-between">
                 <!-- mon premier enfant -->
-                <div>
-                    <img src="asset/" alt="logo manquant">
-                    <h3>Rénovation d’appartements</h3>
-                    <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants,
+                <div class="w-28 solid-border padding-20">
+                    <img src="asset/renovation.png" class="margin-bottom-10" alt="rénovation">
+                    <h2 class="margin-bottom-10">Rénovation d’appartements</h2>
+                    <p class="margin-bottom-10">Repenser la circulation, les volumes et la lumière pour créer des
+                        intérieurs élégants,
                         fonctionnels et chaleureux.</p>
                 </div>
 
                 <!-- mon deuxième enfant -->
-                <div>
-                    <img src="" alt="logo manquant">
-                    <h3>Aménagement sur mesure</h3>
-                    <p>Conception de mobilier intégré et d’espaces adaptés à vos besoins : bibliothèques, rangements...
+                <div class="w-28 solid-border padding-20">
+                    <img src="asset/amenagement.png" class="margin-bottom-10" alt="aménagement">
+                    <h2 class="margin-bottom-10">Aménagement sur mesure</h2>
+                    <p class="margin-bottom-10">Conception de mobilier intégré et d’espaces adaptés à vos besoins :
+                        bibliothèques, rangements...
                     </p>
                 </div>
 
                 <!-- mon troisième enfant -->
-                <div>
-                    <img src="" alt="logo manquant">
-                    <h3>Décoration intérieure</h3>
-                    <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une
+                <div class="w-28 solid-border padding-20">
+                    <img src="asset/decoration.png" class="margin-bottom-10" alt="décoration">
+                    <h2 class="margin-bottom-10">Décoration intérieure</h2>
+                    <p class="margin-bottom-10">Sélection de matériaux, textures et couleurs pour harmoniser votre
+                        intérieur et lui donner une
                         identité </p>
                 </div>
             </div>
@@ -97,140 +104,180 @@
         </section>
 
         <!-- section nos engagement -->
-        <section>
-            <h3>NOS ENGAGEMENTS</h3>
+        <section class="section-engagement margin-top-100 padding-30">
+            <div class="container-1000">
 
-            <!-- mon premier parent -->
-            <div>
-                <!-- mon 1er enfant -->
-                <div>
-                    <a href="asset/icon-coeur.png"></a>
-                    <p>Une approche humaine et créative, centrée sur vos usages et vos envies</p>
+                <div class="flex align-center gap-20 margin-bottom-25 margin-top-25">
+                    <div id="line2"> </div>
+                    <h2 class="txt-white">NOS ENGAGEMENTS</h2>
                 </div>
 
-                <!-- mon 2er enfant -->
-                <div>
-                    <a href="asset/icone-certificate.png"></a>
-                    <p>Des matériaux durables et des fournisseurs locaux privilégiés</p>
+
+                <!-- mon premier parent -->
+                <div class="flex space-between">
+
+                    <!-- mon 1er enfant -->
+                    <div class=" flex w-15 justify-center padding-20">
+                        <img src="asset/icon-coeur.png" class="margin-bottom-25" alt="logo coeur">
+                        <p class="text-center">Une approche humaine et créative, centrée sur vos usages et vos envies
+                        </p>
+                    </div>
+
+                    <!-- mon 2er enfant -->
+                    <div class="flex w-15 justify-center padding-10">
+                        <img src="asset/icone-certificate.png" class="margin-bottom-25" alt="logo certificate">
+                        <p class="text-center">Des matériaux durables et des fournisseurs locaux privilégiés</p>
+                    </div>
+
+                    <!-- mon 3er enfant -->
+                    <div class="flex w-15 justify-center padding-10">
+                        <img src="asset/icone-materiaux.png" class="margin-bottom-25 " alt="logo materiaux">
+                        <p class="text-center">Une expertise esthétique alliée à une rigueur technique</p>
+                    </div>
+
+                    <!-- mon 4er enfant -->
+                    <div class=" flex w-15  justify-center bgred padding-10 ">
+                        <!-- bgred c'est un parti pris, code couleur la toile -->
+                        <img src="asset/iconne-dessin.png" class="margin-bottom-25 " alt="logo dessin">
+                        <p class="text-center">Un accompagnement complet, du croquis à la réception du chantier</p>
+                    </div>
                 </div>
 
-                <!-- mon 3er enfant -->
-                <div>
-                    <a href="asset/icone-materiaux.png"></a>
-                    <p>Une expertise esthétique alliée à une rigueur technique</p>
-                </div>
-
-                <!-- mon 4er enfant -->
-                <div>
-                    <a href="asset/iconne-dessin.png"></a>
-                    <p>Un accompagnement complet, du croquis à la réception du chantier</p>
-                </div>
             </div>
         </section>
 
         <!-- section projet récents -->
 
-        <section>
-            <h3>projets recents</h3>
-            <h2>Vos envies, nos idées, votre cocons</h2>
+        <section class="container-1000 margin-top-100">
+            <div class="flex align-center gap-20 margin-bottom-25 margin-top-25">
+                <div id="line"> </div>
+                <h2 class="goldy-project">PROJET RECENTS</h2>
+            </div>
+
+
+            <h3>Vos envies, nos idées, votre cocons</h3>
 
             <!-- mon parent -->
-            <div>
+            <div class="flex space-between">
 
                 <!-- mon 1er enfant -->
-                <div>
-                    <img src="asset/projet1.png" alt="">
-                    <p>Appartement Haussmannien
+                <div class="w-25">
+                    <img src="asset/projet1.png" class="largeur WTF-rendre-la-dedans" alt="">
+                    <p class="size-20 margin-bottom-10">Appartement Haussmannien
                         Lyon 6e</p>
                     <p>Rénovation complète d’un appartement de 120 m² : ouverture des espaces, mise en valeur des
                         moulures et création d’une cuisine contemporaine contrastée.</p>
                 </div>
 
                 <!-- mon 2er enfant -->
-                <div>
-                    <img src="asset/projet2.png" alt="">
-                    <p>Maison contemporaine
+                <div class="w-25">
+                    <img src="asset/projet2.png" class="largeur WTF-rendre-la-dedans" alt="">
+                    <p class="size-20 margin-bottom-10">Maison contemporaine
                         Annecy</p>
                     <p>Aménagement intérieur complet : création d’un grand espace de vietraversant, matériaux naturels
                         et mobilier sur mesure en bois clair.</p>
                 </div>
 
                 <!-- mon 3er enfant -->
-                <div>
-                    <img src="asset/projet3.png" alt="">
-                    <p>Studio étudiant
+                <div class="w-25 rendre-la-dedans">
+                    <img src="asset/projet3.png" class="largeur WTF-rendre-la-dedans" alt="">
+                    <p class="size-20 margin-bottom-10">Studio étudiant
                         Villeurbanne</p>
                     <p> Optimisation d’un petit espace de 25 m² avec mobilier modulable etambiance minimaliste
                         chaleureuse.</p>
                 </div>
+                </div>
 
-                <img src="asset/projet4.png" alt="">
+                <img src="asset/projet4.png" class="largeur WTF-rendre-la-dedans margin-bottom-25 margin-top-100" alt="image projet 4">
 
-                <h3>Boutique artisanale
+                <h3 class="margin-bottom-10 w-30">Boutique artisanale
                     Croix-Rousse</h3>
-                <p>Transformation d’un ancien atelier en boutique lumineuse : jeu de textures entre béton ciré, bois
+                <p class="margin-bottom-10 w-40">Transformation d’un ancien atelier en boutique lumineuse : jeu de textures entre béton ciré, bois
                     brut et verrières d’atelier.</p>
 
-            </div>
+            
 
         </section>
 
         <!-- section témoignage -->
-        <section>
-            <h3>TÉMOIGNAGES</h3>
+        <section class="margin-top-100">
 
-            <!-- mon parent -->
-            <div>
+            <div class="container-1000 margin-bottom-25 margin-top-100">
 
-                <!-- mon 1er enfant -->
-                <div>
-                    <p>Mathilde</p>
-                    <p>Rénovation d’appartement</p>
-                    <p>
-                        <i class="ph ph-star"></i><i class="ph ph-star"></i><i class="ph ph-star"></i><i
-                            class="ph ph-star"></i><i class="ph ph-star"></i>
+ 
 
-                    </p>
-                    <p>Clémence a su repenser notre espace avec beaucoup d’intelligence et de
-                        goût. Le résultat est à la fois pratique et sublime</p>
-                </div>
+            <div class="flex align-center gap-20 margin-bottom-25 margin-top-25">
+                <div id="line"> </div>
+                <h2 class="goldy-project">TÉMOIGNAGES</h2>
+            </div>
 
-                <!-- mon 2er enfant -->
-                <div>
-                    <p>Olivier</p>
-                    <p>Aménagement de bureau</p>
-                    <p>
-                        <i class="ph ph-star"></i><i class="ph ph-star"></i><i class="ph ph-star"></i><i
-                            class="ph ph-star"></i><i class="ph ph-star"></i>
-                    </p>
-                    <p>Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits
-                        et l’espace respire.</p>
-                </div>
 
-                <!-- mon 3er enfant -->
-                <div>
-                    <p>Sonia</p>
-                    <p>Décoration d’intérieur</p>
+                <h3 class="w-40"> <em>Ils</em> en parlent mieux que nous </h3>
 
-                    <p>
-                        <i class="ph ph-star"></i><i class="ph ph-star"></i><i class="ph ph-star"></i><i
-                            class="ph ph-star"></i><i class="ph ph-star"></i>
-                    </p>
+                <!-- mon parent -->
+                <div class="flex 
+        space-between align-center">
 
-                    <p>J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière
-                        retravaillée, et des matières nobles. Je recommande à 100 %.</p>
+                    <!-- mon 1er enfant -->
+                    <div class="w-25 solid-border padding-20">
+
+                        <p class="margin-bottom-10">Mathilde</p>
+                        <p>Rénovation d’appartement</p>
+                        <p class="goldy-project margin-bottom-10">
+                            <i class="ph-fill ph-star"></i> <i class="ph-fill ph-star"></i> <i
+                                class="ph-fill ph-star"></i> <i class="ph-fill ph-star"></i> <i
+                                class="ph-fill ph-star"></i>
+
+                        </p>
+
+                        <p>Clémence a su repenser notre espace avec beaucoup d’intelligence et de
+                            goût. Le résultat est à la fois pratique et sublime</p>
+                    </div>
+
+                    <!-- mon 2er enfant -->
+                    <div class="w-25 solid-border padding-20">
+                        <p class="margin-bottom-10">Olivier</p>
+                        <p>Aménagement de bureau</p>
+                        <p class="goldy-project margin-bottom-10">
+                            <i class="ph-fill ph-star"></i> <i class="ph-fill ph-star"></i> <i
+                                class="ph-fill ph-star"></i> <i class="ph-fill ph-star"></i> <i
+                                class="ph-fill ph-star"></i>
+                        </p>
+                        <p>Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont
+                            parfaits
+                            et l’espace respire.</p>
+                    </div>
+
+                    <!-- mon 3er enfant -->
+                    <div class="w-25 solid-border padding-20">
+                        <p class="margin-bottom-10">Sonia</p>
+
+                        <p>Décoration d’intérieur</p>
+
+                        <p class="goldy-project margin-bottom-10">
+                            <i class="ph-fill ph-star"></i> <i class="ph-fill ph-star"></i> <i
+                                class="ph-fill ph-star"></i> <i class="ph-fill ph-star"></i> <i
+                                class="ph-fill ph-star"></i>
+
+                        </p>
+
+                        <p>J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière
+                            retravaillée, et des matières nobles. Je recommande à 100 %.</p>
+                    </div>
+
                 </div>
 
             </div>
+
         </section>
 
-        <footer>
+        <footer class="footer">
 
             <!-- mon parent -->
-            <div>
+            <div class="flex space-between container-1000 align-center margin-top-25">
 
                 <!-- mon premier enfant -->
-                <div>
+                <div class="w-40 margin-top-100 margin-bottom-100">
                     <h3>Prets a travailller ensemble ?
                     </h3>
 
@@ -242,23 +289,24 @@
                     <p>Clémence.</p>
 
                     <div>
-                        <a href=""><i class="ph ph-instagram-logo"></i></a>
-                        <a href=""><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="" class="txt-white"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="" class="txt-white"><i class="ph ph-linkedin-logo"></i></a>
 
                     </div>
                 </div>
 
                 <!-- mon deuxième enfant -->
-                <div>
+                <form action="" class="w-33">
                     <input type="text">
                     <input type="text">
-                    <input type="submit" value="">
+                    <input type="submit" class ="btn-primary"  value="Envoyer">
+                </form>
 
-                </div>
+
 
             </div>
 
-            <p>Mentions legales @2025 - Clémence Rivière Studio - Design d’intérieur</p>
+            <p class="text-center">Mentions legales @2025 - Clémence Rivière Studio - Design d’intérieur</p>
 
 
         </footer>
